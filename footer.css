@@ -88,5 +88,6 @@ footer{
   color: white;
 }
 .fa:hover {
-  opacity: .4;
+  color: black;
+  background: linear-gradient(135deg, #2AFADF 0%, #4C83FF 100%);
 }
