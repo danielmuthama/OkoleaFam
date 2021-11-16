@@ -1,41 +1,125 @@
-.blog{
+@font-face {
+  font-family: Robotoitalic;
+  src: url(fonts/roboto/Roboto-Italic.ttf);
+}
 
+@font-face {
+  font-family: Robotoregular;
+  src: url(fonts/roboto/Roboto-Regular.ttf);
 }
-.image{
-background-image: url("img/blog1.png");
-background-size: cover;
-background-repeat: no-repeat;
-text-align: center;
-font-size: 24px;
-height: 434px;
-width: 100%;
-align-items: center;
-border: 1px solid #319DEB;
+
+@font-face {
+  font-family: Robotomedium;
+  src: url(fonts/roboto/Roboto-Medium.ttf);
 }
-.text{
+
+@font-face {
+  font-family: Robotobold;
+  src: url(fonts/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: Robotoblack;
+  src: url(fonts/roboto/Roboto-Black.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.blog {
+  font-family: Robotobold;
+}
+
+.overlay {
+  background-color: rgb(0, 0, 0, .5);
+  height: 414px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+}
+
+.image {
+  background-image: url("img/blog1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 64px;
+  height: 414px;
+  width: 100%;
+  align-items: center;
+  border: 2px solid #319DEB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
   color: white;
   font-weight: bold;
 }
-#perfect{
+
+#perfect {
   color: black;
 }
-.bcentre{
+
+.bcentre {
   text-align: center;
 }
-.writing{
+
+.writing {
   padding: 50px;
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 90px;
+  background: linear-gradient(135deg, #3C8CE7 0%, #00EAFF 100%);
 }
-.row1{
+
+.row1 {
+  padding: 0 6%;
   display: flex;
-  column-gap: 20px;
+  column-gap: 10%;
+  align-items: center;
+  justify-content: center;
+
+
 }
-.card{
-  background-color: pink;
+
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: center;
+  height: 400px;
+  width: 22%;
+  padding: 1%;
 }
-.bstory{
+
+.btitle {
+  padding: 1% 4%;
+}
+
+.bstory {
+  flex-basis: 100%;
   text-align: left;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: 0%;
+  padding: 0%;
+  line-height: 25px;
+}
+
+.readmore {
+  flex-basis: 10%;
+  color: #0094FF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
 }
