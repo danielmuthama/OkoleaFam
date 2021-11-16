@@ -1,17 +1,36 @@
 @font-face {
-  font-family: Roboto;
-  src: url();
+  font-family: Robotoitalic;
+  src: url(fonts/roboto/Roboto-Italic.ttf);
 }
+@font-face {
+  font-family: Robotoregular;
+  src: url(fonts/roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Robotomedium;
+  src: url(fonts/roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Robotobold;
+  src: url(fonts/roboto/Roboto-Bold.ttf);
+}
+@font-face{
+  font-family: Robotoblack;
+  src: url(fonts/roboto/Roboto-Black.ttf);
+}
+
 *{
   box-sizing: border-box;
 }
 body{
-  /* font-family: ; */
 }
 nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-weight: bolder;
+  font-family: Robotobold;
+  letter-spacing: 0.01em;
 }
 .logogroup{
   margin-right: 2%;
@@ -31,7 +50,7 @@ nav{
 .navbar{
   display: flex;
   flex-basis: 55%;
-  margin-right: 3%;
+  margin-right: 4%;
   font-size: 28px;
   list-style: none;
   font-weight: 700;
