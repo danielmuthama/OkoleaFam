@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Roboto;
+  src: url();
+}
 *{
   box-sizing: border-box;
 }
@@ -5,13 +9,12 @@ body{
   /* font-family: ; */
 }
 nav{
-  background-color:white;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .logogroup{
-
+  margin-right: 2%;
   display: flex;
   align-items: center;
 }
@@ -28,10 +31,14 @@ nav{
 .navbar{
   display: flex;
   flex-basis: 55%;
-  margin-right: 2%;
+  margin-right: 3%;
   font-size: 28px;
   list-style: none;
   font-weight: 700;
   align-items: center;
   justify-content: space-between;
+}
+.profile{
+  background: none;
+  border: none;
 }
