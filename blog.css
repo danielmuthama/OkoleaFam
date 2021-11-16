@@ -1,0 +1,41 @@
+.blog{
+
+}
+.image{
+background-image: url("img/blog1.png");
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+font-size: 24px;
+height: 434px;
+width: 100%;
+align-items: center;
+border: 1px solid #319DEB;
+}
+.text{
+  color: white;
+  font-weight: bold;
+}
+#perfect{
+  color: black;
+}
+.bcentre{
+  text-align: center;
+}
+.writing{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.row1{
+  display: flex;
+  column-gap: 20px;
+}
+.card{
+  background-color: pink;
+  text-align: center;
+}
+.bstory{
+  text-align: left;
+}
