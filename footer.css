@@ -1,0 +1,87 @@
+@font-face {
+  font-family: Robotoitalic;
+  src: url(fonts/roboto/Roboto-Italic.ttf);
+}
+@font-face {
+  font-family: Robotoregular;
+  src: url(fonts/roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Robotomedium;
+  src: url(fonts/roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Robotobold;
+  src: url(fonts/roboto/Roboto-Bold.ttf);
+}
+@font-face{
+  font-family: Robotoblack;
+  src: url(fonts/roboto/Roboto-Black.ttf);
+}
+footer{
+  background-color: sandybrown;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 2%;
+}
+.ftext{
+  font-family: Robotoregular;
+  font-size: 24px;
+}
+.okolea{
+  font-family: Robotobold;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.fam{
+  background: linear-gradient(135deg, #2AFADF 0%, #4C83FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.socialicons{
+  
+}
+.fa {
+  padding: 10px;
+  font-size: 24px;
+  width: 24px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
