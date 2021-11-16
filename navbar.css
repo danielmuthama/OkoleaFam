@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  /* font-family: ; */
+}
+nav{
+  background-color:white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logogroup{
+
+  display: flex;
+  align-items: center;
+}
+.okolea{
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.fam{
+  background: linear-gradient(135deg, #2AFADF 0%, #4C83FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar{
+  display: flex;
+  flex-basis: 55%;
+  margin-right: 2%;
+  font-size: 28px;
+  list-style: none;
+  font-weight: 700;
+  align-items: center;
+  justify-content: space-between;
+}
