@@ -7,17 +7,21 @@ h1 {
   padding: 50px;
 } */
 
+
 body {
   background-color: blue;
+  text-align: center;
 
 
 }
+
 
 .card {
   border: 1px solid black;
   max-width: 500px;
   margin: 2rem auto 5rem;
   background-color: white;
+  height: 800px;
 }
 
 form {
@@ -37,8 +41,9 @@ form input {
   border-bottom: 1px solid black;
 }
 .BUT{
-  background-color: blue;
   text-align: center;
+
+
 }
 h1{
   text-align: center;
@@ -48,7 +53,6 @@ h1{
   height: auto;
   max-width: 90px;
   max-height: 50px;
-  align-items: center;
 }
 .image1{
 
@@ -72,8 +76,15 @@ h1{
   height: auto;
   max-width: 90px;
   max-height: 50px;
+  float: 50%;
  
 }
-.images{
-  align-items: center;
+.for{
+  float: left;
+}
+.text{
+  float: left;
+}
+.DIV{
+  padding-bottom: 69px;
 }
