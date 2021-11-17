@@ -1,73 +1,79 @@
-
-body{
-    background-color: white;
+body {
+    padding: 5%;
     display: flex;
     height: 100vh;
-    padding: 4%;
-
-    
-
-}
-.contact_us{
+    overflow: hidden;
+  }
+  
+  .main {
+    flex-basis: 50%;
     background-color: white;
-    flex-basis: 100%;
-    border: 2px solid black;
-    padding-left: 200px;
-    padding-top: 100px;
-
-}
-.circle{
-    height: 50px;
-    width: 50px;
-    border: darkred;
-}
-
-.iconnumber{
+    text-align: center;
+    padding: 3% 5%;
     display: flex;
+    font-size: larger;
     flex-direction: column;
-
-}
-.phone{
+  }
+  
+  .contactus {
+    flex-basis: 50%;
+    background-color: white;
+    text-align: center;
+    padding: 3% 5%;
     display: flex;
-    
-}
-.btn{
-    padding-left: 10%;
-}
-.Ename{
-    display: flex;
+    font-size: larger;
     flex-direction: column;
-    
-    justify-content: space-around;
-}
-.contact >head{
-    justify-content: center;
-}
-._form{
-    flex-basis: 100%;
-    background-color: blue;
-    padding-top: 5%;
-    padding-right: 2%;
-    padding-left: 2%;
+    align-items: center;
     justify-content: space-evenly;
-}
-#_credential{
-    border-radius: 18px
-}
-
-.Ename{
-    border-radius: 18px;
-}
-.btn{
-    background-color: white;
-    justify-content: center;
-    padding-left: 5px;
-    font-size: 30px;
-    border-radius: 20px;
-    box-shadow: rgb(112, 109, 109);
-    
-}
-.third{
-    color: cyan;
-}
-     
+  }
+  
+  .circle1 {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .circle2 {
+    height: 12vh;
+    width: 12vh;
+    border-radius: 0 0 80px 0;
+    background: linear-gradient(135deg, #2AFADF 0%, #4C83FF 100%);
+  }
+  
+  .text {
+    text-align: left;
+  }
+  
+  .icons {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 34px;
+  }
+  
+  .formarea {
+    background: linear-gradient(135deg, #2AFADF 0%, #4C83FF 100%);
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    padding: 3% 5%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #name,
+  #email {
+    padding: 2%;
+    font-size: large;
+    border-radius: 14px;
+    border: none;
+  }
+  
+  #message {
+    font-size: large;
+    border-radius: 14px;
+    border: none;
+    padding: 1% 3%;
+  }
