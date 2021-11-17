@@ -1,59 +1,73 @@
-.contact_us{
-    position: absolute;
-    width: 680px;
-    height: 690px;
-    top: 107px;
-    left: 47px;
+
+body{
+    background-color: white;
+    display: flex;
+    height: 100vh;
+    padding: auto;
+
     
-}
-.contact> head{
-     text-align: center;
-     
-     
 
 }
-.icon{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 230px;
+.contact_us{
+    background-color: white;
+    flex-basis: 100%;
+    border: 2px solid black;
+    padding-left: 200px;
+    padding-top: 100px;
 
 }
+.circle{
+    height: 50px;
+    width: 50px;
+    border: darkred;
+}
+
 .iconnumber{
     display: flex;
+    flex-direction: column;
+
 }
 .phone{
     display: flex;
-}
-._form{
     
-    background: linear-gradient(135deg, #2AFADF 0%, #4C83FF 100%);
-    float: right;
-    position: relative;
-    width: 680px;
-    height: 690px;
-    top: 107px;
-    right: 47px;
-    margin-right: 20px;
-
-    
-}
-.credential{
-    top: 107px;
-    position: absolute;
-    width: 670px;
-    left: 723px;
-    height: 688px;
-
 }
 .btn{
-    margin: 20px;
-    margin-right: 20px;
+    padding-left: 10%;
 }
-.button{
-    position:absolute;
-    align-items: center;
-    padding: 30px;
-    margin-top: 30px;
-    margin-right: 20px;
+.Ename{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
 }
+.contact >head{
+    justify-content: center;
+}
+._form{
+    flex-basis: 100%;
+    background-color: blue;
+    padding-top: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+    justify-content: space-evenly;
+}
+#_credential{
+    border-radius: 18px
+}
+
+.Ename{
+    border-radius: 18px;
+}
+.btn{
+    background-color: white;
+    justify-content: center;
+    padding-left: 5px;
+    font-size: 30px;
+    border-radius: 20px;
+    box-shadow: rgb(112, 109, 109);
+    
+}
+.third{
+    color: cyan;
+}
+     
