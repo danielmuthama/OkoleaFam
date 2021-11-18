@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="img/">
+    <link rel="stylesheet" href="style.css">
+    <title>Okoleafarm-Home</title>
+</head>
+<body>
+  <div class ="slider">
+      <div class ="slides">
+          <input type="radio" name ="radio-button" id = "radio-1">
+          <input type="radio" name ="radio-button" id = "radio-2">
+          <input type="radio" name ="radio-button" id = "radio-3">
+        <div class = "slide first">
+            <img src="img/home1.png" alt=" image not available">
+        </div>
+        <div class = "slide">
+            <img src="img/home2.png" alt=" image not available">
+        </div>
+        <div class = "slide">
+            <img src="img/home3.png" alt=" image not available">
+        </div>
+        <div class="nav-auto"> 
+            <div class="btn-1"></div>
+            <div class="btn-2"></div>
+            <div class="btn-3"></div>
+        </div>
+  </div>  
+  <div class="nav-manual">
+  <label for="radio-1" class="man-btn"></label>
+  <label for="radio-2" class="man-btn"></label>
+  <label for="radio-3" class="man-btn"></label>
+  </div>
+</div>
+
+  <script type = "text/javascript">
+  var counter = 1;
+  setInterval(function() {
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if (counter > 3){
+          counter=1;
+      }
+      }, 500);
+  </script>
+
+</body>
+</html>
